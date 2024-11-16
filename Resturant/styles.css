@@ -1,0 +1,42 @@
+@media (min-width: 1280px) {
+    .menu-item {
+      flex: 0 0 33.3333%;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 1279px) {
+    .menu-item {
+      flex: 0 0 50%;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .menu-item {
+      flex: 0 0 100%;
+    }
+  }
+  @media (max-width: 991px) {
+    .navbar-nav{
+      margin-top: 6px;
+    }
+  }
+.text-yellow {
+  color: #ffff00 !important;
+}
+.menu-item .card {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.menu-item .card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.navbar-nav .nav-item:hover {
+  background-color: #ffff00 !important;
+}
+.offcanvas {
+  height: fit-content !important;
+}
+.offcanvas-body {
+  overflow-y: auto;
+}
